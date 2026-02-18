@@ -1,0 +1,14 @@
+const userName="vijay";
+const userAge="22";
+const isStudent=true;
+const phNumber=987654321;
+const bankbalance=1234567891234567n;
+let ctStatus;
+let gifts=null;
+console.log(typeof userName);
+console.log(typeof userAge);
+console.log(typeof isStudent);
+console.log(typeof phNumber);
+console.log(typeof bankbalance);
+console.log(typeof ctStatus);
+console.log(typeof gifts);
