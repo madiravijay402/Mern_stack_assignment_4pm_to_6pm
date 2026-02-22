@@ -32,7 +32,7 @@
                 </p>
             </section>
 
-            <section>
+            <section class="variables">
                 <h2>Variables</h2>
                 <p>
                     <ul>
@@ -53,6 +53,217 @@
                         console.log(x); // Output: 40
                     </code>
                 </p>
+                <p>
+                    <h3>Example  for let</h3>
+                    <code>
+                        let y = 10;
+                        y=50;
+                        let y=40; // This will throw an error
+                        console.log(y); // Output: 50
+                    </code>
+                </p>
+                <p>
+                    <h3>Example  for const</h3>
+                    <code>
+                        const z = 10;
+                        z=50; // This will throw an error
+                        console.log(z); // Output: 10
+                    </code>
+            </section>
+
+            <section class="data-types">
+                <h2>Data Types (Primitive & Non-Primitive)</h2>
+                <p>
+                    <ul>
+                        <li><strong>Primitive Data Types:</strong> String, Number, Boolean, Null, Undefined, Symbol</li>
+                        <li><strong>Non-Primitive Data Types:</strong> Object (including Arrays and Functions)</li>
+                    </ul>
+            </section>
+
+            <section class="operators">
+                <h2>Operators</h2>
+                <p>
+                    <ul>
+                        <li><strong>Arithmetic Operators:</strong> +, -, *, /, %</li>
+                        <li><strong>Assignment Operators:</strong> =, +=, -=, *=, /=</li>
+                        <li><strong>Comparison Operators:</strong> ==, ===, !=, !==, >, <, >=, <=</li>
+                        <li><strong>Logical Operators:</strong> && (AND), || (OR), ! (NOT)</li>
+                    </ul>
+                </p>
+            </section>
+            
+            <section class="conditional-statements">
+                <h2>Conditional Statements</h2>
+                <p>
+                    <ul>
+                        <li><strong>if statement:</strong> Executes a block of code if a specified condition is true.</li>
+                        <li><strong>else statement:</strong> Executes a block of code if the condition in the if statement is false.</li>
+                        <li><strong>else if statement:</strong> Specifies a new condition to test if the first condition is false.</li>
+                        <li><strong>switch statement:</strong> Evaluates an expression and executes code based on matching cases.</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="control-statements">
+                <h2>Control Statements</h2>
+                <p>
+                    <ul>
+                        <li><strong>for loop:</strong> Repeats a block of code a specified number of times.</li>
+                        <li><strong>while loop:</strong> Repeats a block of code as long as a specified condition is true.</li>
+                        <li><strong>do...while loop:</strong> Executes a block of code once, and then repeats it as long as a specified condition is true.</li>
+                        <li><strong>break statement:</strong> Exits the current loop or switch statement.</li>
+                        <li><strong>continue statement:</strong> Skips the current iteration of a loop and continues with the next iteration.</li>
+                    </ul>
+                </p>
+                <p>
+                    <h3>Examples of Control Statements</h3>
+                    <code>
+                        // Example of for loop
+                        for (let i = 0; i < 5; i++) {
+                            console.log(i);
+                        }
+                        <br>
+                        // Example of while loop
+                        let j = 0;
+                        while (j < 5) {
+                            console.log(j);
+                            j++;
+                        } <br>
+                        // Example of do...while loop
+                        let k = 0;
+                        do {
+                            console.log(k);
+                            k++;
+                        } while (k < 5); <br>
+                        // Example of continue statement
+                        for (let m = 0; m < 5; m++) {
+                            if (m === 2) {
+                                continue; // Skip the rest of the loop when m is 2
+                            }
+                            console.log(m);
+                        }
+                    </code>
+                </p>
+            </section>
+
+            <section class="Expressions">
+                <h2>Expressions</h2>
+                <p>
+                    <ul>
+                        <li><strong>Expression:</strong> A combination of values, variables, operators, and function calls that produces a value.</li>
+                        <li><strong>Example of an expression:</strong> 5 + 3, x * y, Math.sqrt(16)</li>
+                    </ul>
+            </section>
+
+            <section class="Arrays">
+                 <h2>Arrays</h2>
+                <p>
+                    <ul>
+                        <li><strong>Array:</strong> A data structure that can hold multiple values at once, organized in a list.</li>
+                        <li><strong>Example of an array:</strong></li>
+                        <li>let arr = [1, 2, 3, 4, 5];</li>
+                    </ul> 
+                </p>
+                <p>
+                    <h3>types of arrays</h3>
+                    <ul>
+                        <li>Single Dimension array</li>
+                        <li>Multi dimension array</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section class="Objects">
+                 <h2>Objects</h2>
+                 <p>
+                    <ul>
+                        <li><strong>Object:</strong> A data structure that can hold multiple values (properties) and functions (methods) in a key-value pair format.</li>
+                        <li><strong>Example of an object:</strong></li>
+                        <li>let obj = {name: "John", age: 30, city: "New York"};</li>
+                    </ul> 
+                </p>
+            </section>
+
+            <section class="ArrayofObjects">
+                <h2>Array of Objects</h2>
+                <p>
+                    <ul>
+                        <li><strong>Array of Objects:</strong> An array that contains multiple objects as its elements.</li>
+                        <li><strong>Example of an array of objects:</strong></li>
+                        <li>let arrOfObj = [
+                            {name: "John", age: 30, city: "New York"},
+                            {name: "Jane", age: 25, city: "Los Angeles"},
+                            {name: "Bob", age: 35, city: "Chicago"}
+                        ];</li>
+                    </ul> 
+                </p>
+            </section>
+
+            <section class="ArrayMethods">
+                <h2>Array Methods</h2>
+                <p>
+                    <ul>
+                        <li><strong>push():</strong> <code>arr.push(element)</code></li>
+                        <li><strong>pop():</strong> <code>arr.pop()</code></li>
+                        <li><strong>shift():</strong> Removes the first element from an array and returns it.</li>
+                        <li><strong>unshift():</strong> Adds one or more elements to the beginning of an array.</li>
+                        <li><strong>map():</strong> Creates a new array with the results of calling a provided function on every element in the calling array.</li>
+                        <li><strong>filter():</strong> Creates a new array with all elements that pass the test implemented by the provided function.</li>
+                        <li><strong>reduce():</strong> Executes a reducer function on each element of the array, resulting in a single output value.</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section class="hoam">
+                <h2>Higher Order Array Methods</h2>
+                <p>
+                    <ul>
+                        <li><strong>ForEach</strong></li>
+                        <li><strong>Map</strong></li>
+                        <li><strong>Filter</strong></li>
+                        <li><strong>Reduce</strong></li>
+                    </ul>
+                </p>
+                <p>
+                    These methods are called "higher order" because they take a function as an argument and apply it to each element in the array.
+                </p>
+                <p>
+                    <h3>example of forEach</h3>
+                    <code>
+                        let arr = [1, 2, 3, 4, 5];<br>
+                        arr.forEach(function(element) {<br>
+                            console.log(element);<br>
+                        });
+                    </code>
+                    <h3>example of Map</h3>
+                    <code>
+                        let arr = [1, 2, 3, 4, 5];<br>
+                        let squaredArr = arr.map(function(element) {<br>
+                            return element * element;<br>
+                        });<br>
+                        console.log(squaredArr); // Output: [1, 4, 9, 16, 25]
+                    </code>
+                    <h3>example of filter</h3>
+                    <code>
+                        let arr = [1, 2, 3, 4, 5];<br>
+                        let evenArr = arr.filter(function(element) {<br>
+                            return element % 2 === 0;<br>
+                        });<br>
+                        console.log(evenArr); // Output: [2, 4]
+                    </code>
+                    <h3>example of reduce</h3>
+                    <code>
+                        let arr = [1, 2, 3, 4, 5];<br>
+                        let sum = arr.reduce(function(accumulator, element) {<br>
+                            return accumulator + element;<br>
+                        }, 0);<br>
+                        console.log(sum); // Output: 15
+                    </code>
+                </p>
+            </section>
+
+            <section class="Functions">
+                <h2>Functions</h2>
+                
             </section>
         </main>
     </div>
