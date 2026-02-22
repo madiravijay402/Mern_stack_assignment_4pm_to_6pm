@@ -4,6 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       body{
+        background-color: antiquewhite;
+        font-family: Arial, sans-serif;
+        margin: 0;
+       }
+       header h1{
+        margin: 0;
+       }
+       main{
+        margin-top: 80px;
+       }
+       header{
+        background-color: green;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        padding: 20px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        position: fixed;
+        width: 100%;
+        margin-bottom: 20px;
+       }
+       code{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        display: block;
+        margin: 20px 0;
+        transition:   background-color 0.3s ease-in;
+       }
+       code:hover{
+        background-color: white;
+        color: black;
+       }
+       h2{
+        color: green;
+       }
+       ul{
+            color: rgb(0, 0, 0);
+            padding: 10px;
+        transform: background-color 0.5s ease;
+        
+       }
+       ul:hover{
+        background-color: white;
+       }
+    </style>
 </head>
 <body>
     <header>
@@ -297,6 +347,7 @@
                         (function() {<br>
                             console.log("This is an IIFE!");<br>
                         })();
+                    </code>
                 </p>
             </section>
         </main>
