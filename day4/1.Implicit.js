@@ -9,3 +9,7 @@ console.log(b);
 console.log("output:",[]+{});// when we add array and object it will convert both into string and concatenate them and give [object Object] as output
 
 console.log("output:",[]+[]);
+
+console.log(0==false);
+
+
