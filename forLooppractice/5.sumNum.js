@@ -5,3 +5,4 @@ for(let i=a;i<=b;i++){
     sum+=i;
 }
 console.log("sum of the numbers from a to b :",sum);
+
