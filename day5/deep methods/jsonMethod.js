@@ -10,5 +10,3 @@ console.log("before",og);
 copy.address.city="nellore"
 console.log("after",og);
 console.log("copy",copy);
-
- 
