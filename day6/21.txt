@@ -1,0 +1,18 @@
+| Version           | Year | Name / Highlights                                                                                 |
+| ----------------- | ---- | ------------------------------------------------------------------------------------------------- |
+| **ES1**           | 1997 | First version of JavaScript standard                                                              |
+| **ES2**           | 1998 | Minor updates, international standards alignment                                                  |
+| **ES3**           | 1999 | Regular expressions, try/catch, better strings & arrays                                           |
+| **ES4**           | —    | **Cancelled** (never released)                                                                    |
+| **ES5**           | 2009 | Strict mode, JSON support, array methods (`map`, `filter`, `reduce`)                              |
+| **ES6 (ES2015)**  | 2015 | Major update: `let`, `const`, arrow functions, classes, promises, destructuring, modules, Map/Set |
+| **ES2016 (ES7)**  | 2016 | `includes()`, exponent operator `**`                                                              |
+| **ES2017 (ES8)**  | 2017 | `async/await`, `Object.values()`, `Object.entries()`                                              |
+| **ES2018 (ES9)**  | 2018 | Rest/spread for objects, async iteration                                                          |
+| **ES2019 (ES10)** | 2019 | `flat()`, `flatMap()`, `trimStart()`, `trimEnd()`                                                 |
+| **ES2020 (ES11)** | 2020 | Optional chaining `?.`, nullish coalescing `??`, BigInt                                           |
+| **ES2021 (ES12)** | 2021 | `replaceAll()`, logical assignment operators                                                      |
+| **ES2022 (ES13)** | 2022 | Class fields, private properties (`#`), `at()` method                                             |
+| **ES2023 (ES14)** | 2023 | `toSorted()`, `toReversed()`, `findLast()`                                                        |
+| **ES2024 (ES15)** | 2024 | Minor improvements (grouping features, updates to promises & collections)                         |
+| **ES2025**        | 2025 | Latest incremental improvements (small feature additions, yearly updates)                         |
