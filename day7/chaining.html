@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"></p>
+    <p id="scnd"></p>
+    <script>
+        let obj={age:22}
+        // optional challenging
+        let c=obj.name?.adress; // if you dont keep the question mark the page will be blank
+        let d=obj.age;
+        
+        let para=document.getElementById("para");
+        let para2=document.getElementById("scnd");
+        para.innerText=c;
+        para2.innerText=d;
+    </script>
+</body>
+</html>
