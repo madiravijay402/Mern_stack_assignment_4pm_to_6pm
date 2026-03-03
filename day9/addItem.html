@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inpValue" name="value" placeholder="enter the value">
+    <button type="button" id="add">add</button>
+    <ul id="parent"></ul>
+    <script>
+        let add=document.getElementById("add");
+        let parent=document.getElementById("parent")
+        let inpvalue=document.getElementById("inpValue")
+       
+        add.addEventListener("click",()=>{
+            let child=document.createElement("li")
+             child.innerText=inpvalue.value || "default value";
+             parent.appendChild(child);
+             
+        })
+    </script>
+</body>
+</html>

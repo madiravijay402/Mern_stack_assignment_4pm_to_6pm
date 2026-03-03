@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="output"></p>
+   <button id="increase" type="button">increase</button>
+   <button id="decrease" type="button">decrease</button>
+   <button id="reset" type="button">reset</button>
+   <script>
+    let inc=document.getElementById("increase")
+    let out=document.getElementById("output");
+    let dec=document.getElementById("decrease");
+    let reset=document.getElementById("reset");
+    out.innerText=0
+    inc.addEventListener("click",()=>{
+        out.innerText++;
+    })
+    dec.addEventListener("click",()=>{
+        out.innerText--;
+    })
+    reset.addEventListener("click",()=>{
+        out.innerText=0;
+    })
+   </script>
+
+</body>
+</html>
