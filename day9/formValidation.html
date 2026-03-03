@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="sbmt(event)">
+        <label for="" id="lab">name</label>
+        <input type="text" name="name" placeholder="enter the text here" id="input">
+        <button type="submit" id="sub">submit</button>
+    </form>
+    <script>
+        const input=document.getElementById("input");
+        const btn=document.getElementById("sub")
+        function sbmt(e){
+            e.preventDefault();
+            if(input.value.trim()===""){
+                alert("enter the text");
+                return;
+            }else{
+                alert("from submitted")
+            }
+        
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="color">
+   <button type="button" id="ck">mood</button>
+    <script>
+       const click=document.getElementById("ck");
+       const body=document.getElementById("color")
+       click.addEventListener("click",()=>{
+        body.style.backgroundColor=body.style.backgroundColor==='white'?'black':'white';
+       })
+    </script>
+</body>
+</html>

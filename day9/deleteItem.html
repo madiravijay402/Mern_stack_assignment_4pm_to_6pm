@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Delete</title>
+    <style>
+        li { margin-bottom: 5px; list-style: none; }
+        .del-btn { margin-left: 10px; color: red; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <input type="text" id="inpValue" placeholder="enter the value">
+    <button type="button" id="add">add</button>
+    <ul id="parent"></ul>
+
+    <script>
+        const addBtn = document.getElementById("add");
+        const parent = document.getElementById("parent");
+        const input = document.getElementById("inpValue");
+
+        addBtn.addEventListener("click", () => {
+            if (input.value.trim() === "") return; 
+
+            
+            const li = document.createElement("li");
+            li.innerText = input.value;
+
+            
+            const delBtn = document.createElement("button");
+            delBtn.innerText = "Delete";
+            delBtn.className = "del-btn";
+
+            
+            delBtn.addEventListener("click", () => {
+                li.remove(); 
+            });
+
+           
+            li.appendChild(delBtn);
+            parent.appendChild(li);
+
+            
+            input.value = "";
+        });
+    </script>
+</body>
+</html>
